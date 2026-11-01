@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rockframe"
+version = "0.9.0"
+description = "Matrix analysis of 2D reinforced concrete frames with NSR-10 seismic checks"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Juan Camilo Buitrago Hurtado" },
+    { name = "Diego Martínez Pineda" },
+]
+dependencies = ["numpy", "matplotlib", "pandas", "openpyxl", "customtkinter"]
+
+[project.gui-scripts]
+rockframe = "rockframe.__main__:main"
+
+[tool.setuptools]
+packages = ["rockframe"]
