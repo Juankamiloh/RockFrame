@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "ROCKFRAME: matrix analysis of 2D reinforced concrete frames with NSR-10 seismic checks"
 type: software
+license: MIT
 authors:
   - family-names: "Buitrago Hurtado"
     given-names: "Juan Camilo"

@@ -8,6 +8,7 @@ version = "0.9.0"
 description = "Matrix analysis of 2D reinforced concrete frames with NSR-10 seismic checks"
 readme = "README.md"
 requires-python = ">=3.10"
+license = { text = "MIT" }
 authors = [
     { name = "Juan Camilo Buitrago Hurtado" },
     { name = "Diego Martínez Pineda" },

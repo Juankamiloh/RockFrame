@@ -87,3 +87,7 @@ ROCKFRAME es una herramienta de investigación y educación. No reemplaza el cri
 ## Autores
 
 Juan Camilo Buitrago Hurtado y Diego Martínez Pineda (director del proyecto), Semillero de Estructuras GEMA, Universidad de La Sabana. Desarrollado con ayuda de ChatGPT y Claude Code. Para citarlo, consulta [`CITATION.cff`](CITATION.cff).
+
+## Licencia
+
+ROCKFRAME se distribuye con la licencia [MIT](LICENSE).
