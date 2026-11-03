@@ -195,8 +195,8 @@ class RockFrameUI(ctk.CTk):
         s = self._tarjeta(p, "Secciones")
         self._rejilla(s, lambda m: self._campo(m, "bc", "Columna b", "m"), lambda m: self._campo(m, "hc", "Columna h", "m"))
         self._rejilla(s, lambda m: self._campo(m, "bv", "Viga b", "m"), lambda m: self._campo(m, "hv", "Viga h", "m"))
-        self._rejilla(s, lambda m: self._campo(m, "fv", "Factor I vigas", "", "Bruta = 1.0"),
-                      lambda m: self._campo(m, "fcol", "Factor I columnas", "", "Bruta = 1.0"))
+        self._rejilla(s, lambda m: self._campo(m, "fv", "Factor I vigas", "", "Sin reducir = 1.0"),
+                      lambda m: self._campo(m, "fcol", "Factor I columnas", "", "Sin reducir = 1.0"))
 
         c = self._tarjeta(p, "Concreto")
         self._rejilla(c, lambda m: self._campo(m, "fc", "f'c", "MPa"), lambda m: self._campo(m, "gamma", "Peso unitario γ", "kN/m³"))

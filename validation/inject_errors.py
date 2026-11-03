@@ -14,7 +14,7 @@ MUTANTES = [
     ("Rigidez 12EI/L³ alterada", "[ 0, 12*EI/L3, 6*EI/L2, 0, -12*EI/L3, 6*EI/L2]", "[ 0, 11.9*EI/L3, 6*EI/L2, 0, -11.9*EI/L3, 6*EI/L2]"),
     ("Signo de la transformación", "[-s,c,0,0,0,0]", "[s,c,0,0,0,0]"),
     ("Empotramiento wL²/12 cambiado", "wL*L/12, 0, wL/2, -wL*L/12", "wL*L/10, 0, wL/2, -wL*L/10"),
-    ("H1: fuerzas con inercia bruta", "kl=k_local_frame(e.E,e.A,effective_I(e,s,factor_vigas,factor_columnas),L)", "kl=k_local_frame(e.E,e.A,e.I,L)"),
+    ("H1: fuerzas con inercia sin reducir", "kl=k_local_frame(e.E,e.A,effective_I(e,s,factor_vigas,factor_columnas),L)", "kl=k_local_frame(e.E,e.A,e.I,L)"),
     ("H2: sin límite Cu·Ta", "return min(float(T_R), float(T_limite))", "return float(T_R)"),
     ("Cu sin el mínimo 1.2", "return max(1.75 - 1.2 * Av * Fv, 1.2)", "return 1.75 - 1.2 * Av * Fv"),
     ("Tc con 0.47 en vez de 0.48", "Tc = 0.48 * (Av * Fv) / (Aa * Fa)\n    TL", "Tc = 0.47 * (Av * Fv) / (Aa * Fa)\n    TL"),
